@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "Courier Prime", monospace;
+}
+
+.navegador {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.navegador a {
+  text-decoration: none;
+  color: #b12d75;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.navegador a:hover {
+  color: rgb(110, 152, 193);
+}
+
+.introducao {
+  background-image: url(../img/fundo_introducao.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 80px;
+}
+
+.introducao h1 {
+  color: white;
+  font-size: 6rem;
+  margin-bottom: 0;
+}
+
+.introducao h2 {
+  color: #D93690;
+  font-size: 5rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.introducao h3 {
+  color: white;
+  font-size: 23px;
+  border-top: 1px solid white;
+  padding-top: 30px;
+
+}
+
+.titulos_introducao {
+  text-align: center;
+  padding-top: 140px;
+}
+
+.info_introducao {
+  color: grey;
+  padding-bottom: 240px;
+}
+
+.info_introducao ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+  font-size: 18px;
+}
