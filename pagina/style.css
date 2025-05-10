@@ -37,6 +37,7 @@ body {
   color: white;
   font-size: 6rem;
   margin-bottom: 0;
+  letter-spacing: 4px;
 }
 
 .introducao h2 {
@@ -44,6 +45,7 @@ body {
   font-size: 5rem;
   margin-top: 0;
   margin-bottom: 0;
+  letter-spacing: 4px;
 }
 
 .introducao h3 {
@@ -56,12 +58,12 @@ body {
 
 .titulos_introducao {
   text-align: center;
-  padding-top: 140px;
+  padding-top: 180px;
 }
 
 .info_introducao {
   color: grey;
-  padding-bottom: 240px;
+  padding-bottom: 20%;
 }
 
 .info_introducao ul {
@@ -69,4 +71,42 @@ body {
   list-style: none;
   gap: 60px;
   font-size: 18px;
+}
+
+.evento {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.evento h1 {
+  color: #D93690;
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.evento h2{
+  color: #D93690;
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 4px;
+}
+
+.evento p{
+  color: white;
+  font-size: 25px;
+}
+
+.sobre {
+  text-align: center;
+  max-width: 40%;
+  padding-right: 5%;
+}
+
+.img_secao2 {
+  max-width: 40%;
+  padding-left: 5%;
 }
