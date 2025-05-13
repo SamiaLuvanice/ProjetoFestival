@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: black;
   margin: 0;
+  overflow-x: hidden;
   font-family: "Courier Prime", monospace;
 }
 
@@ -19,8 +24,27 @@ body {
   color: #b12d75;
   font-size: 2rem;
   font-weight: 600;
+  margin-bottom: 30px;
 }
+
+@media (max-width: 1000px) {
+  .navegador a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 750px) {
+  .navegador a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 550px) {
+  .navegador a {
+    font-size: 0.9rem;
+  }
+}
+
 .navegador a:hover {
+  transition: 0.3s;
   color: rgb(110, 152, 193);
 }
 
@@ -81,6 +105,34 @@ body {
   padding-bottom: 12%;
 }
 
+@media (max-width: 1100px) {
+  .evento {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobre {
+    min-width: 80%;
+  }
+  .sobre p {
+    text-align: justify;
+  }
+
+  .img_secao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 0;
+
+  }
+  .img_secao2 img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 .sobre {
   text-align: center;
   max-width: 40%;
@@ -108,8 +160,10 @@ body {
 
 .img_secao2 {
   max-width: 40%;
-  padding-left: 5%;
+
 }
+
+
 
 .programacao {
   display: flex;
@@ -123,8 +177,24 @@ body {
 
 .programacao h1 {
   color: white;
-  font-size: 5rem;
+  font-size: 4rem;
   letter-spacing: 6px;
+}
+@media (min-width: 1451px) {
+  .caixa_programacao {
+    max-width: 14%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .conteiner_programacao {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .caixa_programacao {
+    max-width: 50%;
+  }
 }
 
 .conteiner_programacao {
@@ -136,7 +206,6 @@ body {
 
 .caixa_programacao {
   padding: 1rem;
-  width: 14%;
   border: 2px solid white;
   border-radius: 1rem;
 }
@@ -168,4 +237,8 @@ body {
   font-weight: bold;
   font-size: 2.5rem;
   color: black;
+}
+.gradiente_programacao:hover {
+  background: linear-gradient(90deg, rgb(110, 152, 193), #7f00ff);
+  transition: 0.5s;
 }
