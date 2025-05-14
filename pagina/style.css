@@ -290,3 +290,66 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.galeria {
+  padding: 80px 40px; /* aumentei o espaço superior e lateral */
+  text-align: center;
+  background-color: #000000;
+  padding: 40px 60px;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 60px;
+}
+
+.galeria-item {
+  position: relative;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+.galeria-item p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  background: linear-gradient(90deg, #7f00ff, #fc449a);
+  border-radius: 5rem;
+  font-weight: bold;
+  font-size: 0.95rem;
+  color: black;
+}
+
+footer {
+  background-color: #0ff;
+  padding: 30px 20px;
+  color: #000;
+  text-align: center;
+}
+
+footer .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+footer p {
+  margin: 5px 0;
+}
