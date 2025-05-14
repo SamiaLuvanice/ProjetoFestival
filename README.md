@@ -25,8 +25,3 @@ O evento é aberto ao público e tem foco em:
 - Artistas e produtores culturais
 - Educadores e pesquisadores
 - Famílias e comunidade em geral
-
-## Local e Data
-
-**Local:** [Inserir o local do evento]  
-**Data:** [Inserir a data do evento]
