@@ -302,10 +302,10 @@ body {
 }
 
 .galeria {
-  padding: 80px 40px; /* aumentei o espaço superior e lateral */
+  padding-top: 13%;
+  padding-bottom: 23%;
   text-align: center;
-  background-color: #6e98c1;
-  padding: 40px 60px;
+  background-image: url(../img/fundo_galeria.png);
   color: white;
   text-align: center;
   font-size: 3rem;
@@ -334,8 +334,6 @@ body {
   display: block;
 }
 
-
-
 .galeria-item p {
   display: flex;
   justify-content: center;
@@ -349,7 +347,7 @@ body {
 }
 
 footer {
-  background-color: #0ff;
+  background-color: #902560;
   padding: 30px 20px;
   color: #000;
   text-align: center;
