@@ -8,7 +8,7 @@ body {
   background-color: black;
   margin: 0;
   overflow-x: hidden;
-  font-family: "Courier Prime", monospace;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navegador {
@@ -346,18 +346,57 @@ body {
   color: black;
 }
 
+/*ESPAÇO FOOTER*/
+
 footer {
   background-color: #902560;
-  padding: 30px 20px;
-  color: #000;
+  color: #fff;
+  padding: 40px 20px;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
-footer .logo {
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content .logo {
+  font-size: 1.6rem;
   font-weight: bold;
-  font-size: 1.2rem;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
-footer p {
+.footer-content p {
   margin: 5px 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.team-list li {
+  margin: 0;
+}
+
+.team-list a {
+  color: #ffd6ec;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.team-list a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
