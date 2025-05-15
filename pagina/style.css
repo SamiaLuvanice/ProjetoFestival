@@ -45,7 +45,7 @@ body {
 
 .navegador a:hover {
   transition: 0.3s;
-  color: rgb(110, 152, 193);
+  color: #6e98c1;
 }
 
 .introducao {
@@ -101,8 +101,8 @@ body {
   display: flex;
   justify-content: center;
   align-items:center;
-  padding-top: 12%;
-  padding-bottom: 12%;
+  padding-top: 15%;
+  padding-bottom: 15%;
 }
 
 @media (max-width: 1100px) {
@@ -244,26 +244,36 @@ body {
 }
 
 .inscricao {
+  display: flex;
   background-color: #000000;
-  padding: 40px 60px;
+  justify-content: center;
+  align-items: center;
   color: white;
-  text-align: left;
-  font-size: 3rem;
-  
+  padding-top: 10%;
+  padding-bottom: 23%;
+  flex-direction: column;
+}
+
+.inscricao h1 {
+  color: white;
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 4px;
+  text-align: center;
+  padding-bottom: 9%;
 }
 
 .form-inscricao {
   max-width:60%;
-  background-color: none;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: end;
   gap: 15px;
+  padding-left: 40%;
 }
 
 .form-inscricao label {
-  color: #ff00aa;
+  color: #D93690;
   font-weight: bold;
   text-align: left;
   font-size: 30px;
@@ -275,7 +285,7 @@ body {
   border: 2px solid;
   border-radius: 5px;
   background-color: #000000;
-  border-color:#00ffff;
+  border-color:white;
   color:#ffffff;
   font-size: 20px;
 
@@ -283,7 +293,7 @@ body {
 
 .form-inscricao button {
   padding: 10px;
-  background-color: #00ffff;
+  background-color: #6e98c1;
   color: #1a0e1a;
   font-weight: bold;
   border: none;
@@ -294,7 +304,7 @@ body {
 .galeria {
   padding: 80px 40px; /* aumentei o espaço superior e lateral */
   text-align: center;
-  background-color: #000000;
+  background-color: #6e98c1;
   padding: 40px 60px;
   color: white;
   text-align: center;
